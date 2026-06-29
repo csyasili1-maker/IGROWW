@@ -18252,4 +18252,38 @@ img[src$="igroww-academy-logo.png"] {
   }
 }
 
+/* ========================================
+   RESTORE ALL SECTION IMAGES (VISIBILITY OVERRIDES)
+   ======================================== */
+.choose-img {
+  display: block !important;
+  text-align: center !important;
+}
+.choose-img figure.image1 img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: inline-block !important;
+}
 
+.skill-section .image-column {
+  display: block !important;
+}
+.skill-section .skill-img {
+  display: block !important;
+}
+.skill-section .skill-img img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.pricing-img-column {
+  display: block !important;
+}
+.pricing-img-column .pricing-shape {
+  display: block !important;
+}
+.pricing-img-column .pricing-shape img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
