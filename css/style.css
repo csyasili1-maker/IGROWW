@@ -18267,13 +18267,44 @@ img[src$="igroww-academy-logo.png"] {
 
 .skill-section .image-column {
   display: block !important;
+  position: relative !important;
+  margin-bottom: 40px !important;
 }
 .skill-section .skill-img {
   display: block !important;
+  position: relative !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
 }
 .skill-section .skill-img img {
   max-width: 100% !important;
   height: auto !important;
+}
+.skill-section .skill-img .skill-img2 {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  max-width: 55% !important;
+}
+.skill-section .skill-img .skill-img2 img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+.skill-section .skill-img .skill-icon-box {
+  position: relative !important;
+  bottom: auto !important;
+  right: auto !important;
+  margin: 20px auto 0 !important;
+  max-width: 100% !important;
+}
+@media (max-width: 1199.98px) {
+  .skill-section .skill-img .skill-img2 {
+    position: relative !important;
+    right: auto !important;
+    top: auto !important;
+    margin-top: 15px !important;
+    max-width: 100% !important;
+  }
 }
 
 .pricing-img-column {
@@ -18287,3 +18318,13 @@ img[src$="igroww-academy-logo.png"] {
   height: auto !important;
   display: block !important;
 }
+
+/* ========================================
+   REMOVE HERO MAIN IMAGE ON MOBILE VIEW
+   ======================================== */
+@media (max-width: 767.98px) {
+  .banner-section.style_two .hero-thumb {
+    display: none !important;
+  }
+}
+
