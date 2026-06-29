@@ -161,6 +161,9 @@ h6 {
   position: relative;
   color: var(--headings-color);
   font-family: var(--heading-font-family);
+  word-break: keep-all;
+  overflow-wrap: normal;
+  word-wrap: normal;
 }
 h1 small,
 h1 .small,
