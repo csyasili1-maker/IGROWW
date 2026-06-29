@@ -18371,11 +18371,3 @@ img[src$="igroww-academy-logo.png"] {
   display: block !important;
   object-fit: cover !important;
 }
-
-/* ========================================
-   REMOVE COUNSELLING HELP SIDEBAR CARD
-   ======================================== */
-.service-details-help {
-  display: none !important;
-}
-
