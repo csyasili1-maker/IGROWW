@@ -18328,3 +18328,14 @@ img[src$="igroww-academy-logo.png"] {
   }
 }
 
+/* ========================================
+   LEARNING JOURNEY PROCESS SECTION ROUNDED IMAGE
+   ======================================== */
+.process-img .image-box img {
+  border-radius: 24px !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4) !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: cover !important;
+}
