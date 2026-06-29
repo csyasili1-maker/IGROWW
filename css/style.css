@@ -18094,14 +18094,22 @@ img[src$="igroww-academy-logo.png"] {
 @media (max-width: 1199.98px) {
   .main-header .logo img[src$="igroww-academy-logo.png"] {
     width: auto;
-    height: 56px;
+    height: 75px;
+  }
+  .sticky-header .logo img[src$="igroww-academy-logo.png"] {
+    width: auto;
+    height: 55px;
   }
 }
 
 @media (max-width: 575.98px) {
   .main-header .logo img[src$="igroww-academy-logo.png"] {
     width: auto;
-    height: 44px;
+    height: 65px;
+  }
+  .sticky-header .logo img[src$="igroww-academy-logo.png"] {
+    width: auto;
+    height: 52px;
   }
 
   .igroww-preloader-logo {
