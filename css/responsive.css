@@ -2337,7 +2337,7 @@ h1, h2, h3, h4 {
 	}
 
 	.banner-section.style_two .hero-thumb {
-		display: none !important;
+		display: block;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
@@ -3137,7 +3137,7 @@ h1, h2, h3, h4 {
 	}
 
 	.banner-section.style_two .hero-thumb {
-		display: none !important;
+		display: block;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
@@ -4119,7 +4119,7 @@ h1, h2, h3, h4 {
 	}
 
 	.banner-section.style_two .hero-thumb {
-		display: none !important;
+		display: block;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
