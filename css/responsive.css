@@ -4585,5 +4585,9 @@ h1, h2, h3, h4 {
   .sticky-header .mobile-nav-toggler {
     display: flex !important;
   }
+
+  .sticky-header .nav-outer {
+    display: block !important;
+  }
 }
 
