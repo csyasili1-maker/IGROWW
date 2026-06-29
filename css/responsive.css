@@ -3100,11 +3100,52 @@ h1, h2, h3, h4 {
 
 	.banner-section.style_two {
 		height: auto !important;
-		padding: 120px 0 50px !important;
+		padding: 120px 0 60px !important;
+		background-image: linear-gradient(rgba(17, 17, 17, 0.85), rgba(17, 17, 17, 0.95)), url(../images/home-2/hero-bgt.png) !important;
+		background-size: cover !important;
+		background-position: center center !important;
+		text-align: center !important;
 	}
 
 	.banner-section.style_two .hero_upper {
 		margin-top: 0 !important;
+	}
+
+	.banner-section.style_two .content-box {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		justify-content: center !important;
+		text-align: center !important;
+	}
+
+	.banner-section.style_two .content-box .title {
+		font-size: 34px !important;
+		line-height: 45px !important;
+		text-align: center !important;
+		margin-bottom: 18px !important;
+	}
+
+	.banner-section.style_two .banner_icon-bx {
+		margin: 0 auto 22px !important;
+		text-align: center !important;
+		display: block !important;
+	}
+
+	.banner-section.style_two .banner_icon-bx .banner-icon {
+		display: none !important;
+	}
+
+	.banner-section.style_two .banner_icon-bx .banner-text p {
+		width: 100% !important;
+		font-size: 15px !important;
+		line-height: 26px !important;
+		text-align: center !important;
+		margin: 0 !important;
+	}
+
+	.banner-section.style_two .theme-btn-main {
+		margin: 0 auto !important;
 	}
 
 	.banner-section.style_two .hero-thumb {
@@ -3112,34 +3153,48 @@ h1, h2, h3, h4 {
 		position: relative !important;
 		right: auto !important;
 		bottom: auto !important;
-		margin: 35px auto 0 !important;
-		max-width: 100% !important;
+		margin: 40px auto 0 !important;
+		max-width: 90% !important;
 		text-align: center !important;
 	}
 
+	.banner-section.style_two .hero-thumb figure {
+		display: inline-block !important;
+		padding: 9px !important;
+		background: rgba(255, 255, 255, 0.03) !important;
+		border: 1px solid rgba(252, 219, 102, 0.15) !important;
+		border-radius: 18px !important;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(252, 219, 102, 0.1) !important;
+		margin: 0 !important;
+	}
+
 	.banner-section.style_two .hero-thumb img {
-		max-width: 360px !important;
+		max-width: 320px !important;
 		width: 100% !important;
 		height: auto !important;
+		border-radius: 14px !important;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
-		display: none;
+		display: none !important;
 	}
 
 	.banner-section.style_two .content-box .hero-campaign {
-		display: none;
+		display: inline-block !important;
+		position: relative !important;
+		left: auto !important;
+		top: auto !important;
+		margin: 0 auto 18px !important;
 	}
 
-	.banner-section.style_two .content-box .title {
-		font-size: 50px;
-		line-height: 65px;
-	}
-
-	.banner-section.style_two .banner_icon-bx .banner-text p {
-		width: 100%;
-		font-size: 15px;
-		line-height: 28px;
+	.banner-section.style_two .content-box .hero-campaign .campaign-badge {
+		background: rgba(252, 219, 102, 0.12) !important;
+		border: 1px solid rgba(252, 219, 102, 0.4) !important;
+		color: #fcdb66 !important;
+		padding: 6px 14px !important;
+		border-radius: 50px !important;
+		font-size: 12px !important;
+		letter-spacing: 1px !important;
 	}
 
 	/* Abut section two */
@@ -4064,11 +4119,52 @@ h1, h2, h3, h4 {
 
 	.banner-section.style_two {
 		height: auto !important;
-		padding: 120px 0 40px !important;
+		padding: 110px 0 50px !important;
+		background-image: linear-gradient(rgba(17, 17, 17, 0.85), rgba(17, 17, 17, 0.95)), url(../images/home-2/hero-bgt.png) !important;
+		background-size: cover !important;
+		background-position: center center !important;
+		text-align: center !important;
 	}
 
 	.banner-section.style_two .hero_upper {
 		margin-top: 0 !important;
+	}
+
+	.banner-section.style_two .content-box {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		justify-content: center !important;
+		text-align: center !important;
+	}
+
+	.banner-section.style_two .content-box .title {
+		font-size: 30px !important;
+		line-height: 40px !important;
+		text-align: center !important;
+		margin-bottom: 15px !important;
+	}
+
+	.banner-section.style_two .banner_icon-bx {
+		margin: 0 auto 20px !important;
+		text-align: center !important;
+		display: block !important;
+	}
+
+	.banner-section.style_two .banner_icon-bx .banner-icon {
+		display: none !important;
+	}
+
+	.banner-section.style_two .banner_icon-bx .banner-text p {
+		width: 100% !important;
+		font-size: 14px !important;
+		line-height: 24px !important;
+		text-align: center !important;
+		margin: 0 !important;
+	}
+
+	.banner-section.style_two .theme-btn-main {
+		margin: 0 auto !important;
 	}
 
 	.banner-section.style_two .hero-thumb {
@@ -4076,38 +4172,49 @@ h1, h2, h3, h4 {
 		position: relative !important;
 		right: auto !important;
 		bottom: auto !important;
-		margin: 30px auto 0 !important;
-		max-width: 100% !important;
+		margin: 35px auto 0 !important;
+		max-width: 90% !important;
 		text-align: center !important;
 	}
 
+	.banner-section.style_two .hero-thumb figure {
+		display: inline-block !important;
+		padding: 8px !important;
+		background: rgba(255, 255, 255, 0.03) !important;
+		border: 1px solid rgba(252, 219, 102, 0.15) !important;
+		border-radius: 16px !important;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(252, 219, 102, 0.1) !important;
+		margin: 0 !important;
+	}
+
 	.banner-section.style_two .hero-thumb img {
-		max-width: 280px !important;
+		max-width: 260px !important;
 		width: 100% !important;
 		height: auto !important;
+		border-radius: 12px !important;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
-		display: none;
+		display: none !important;
 	}
 
 	.banner-section.style_two .content-box .hero-campaign {
-		display: none;
+		display: inline-block !important;
+		position: relative !important;
+		left: auto !important;
+		top: auto !important;
+		margin: 0 auto 15px !important;
 	}
 
-	.banner-section.style_two .content-box .title {
-		font-size: 32px;
-		line-height: 43px;
+	.banner-section.style_two .content-box .hero-campaign .campaign-badge {
+		background: rgba(252, 219, 102, 0.12) !important;
+		border: 1px solid rgba(252, 219, 102, 0.4) !important;
+		color: #fcdb66 !important;
+		padding: 5px 12px !important;
+		border-radius: 50px !important;
+		font-size: 11px !important;
+		letter-spacing: 1px !important;
 	}
-
-	.banner-section.style_two .content-box .nexella-buton a {
-		margin-left: 0;
-	}
-
-	.banner-section.style_two .banner_icon-bx .banner-text p {
-		width: 100%;
-		font-size: 15px;
-		line-height: 28px;
 	}
 
 	/* Abut section two */
