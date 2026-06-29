@@ -1581,5 +1581,14 @@ var THEMEMASCOT = {};
     handlePreloader();
     TM_Pricing_Switcher_Smart();
     TM_Pricing_Switcher_Btn();
+    
+    // Inject floating WhatsApp button
+    if (!$('.whatsapp-float').length) {
+      $('body').append(
+        '<a href="https://wa.me/918297991199?text=Hello%20I%20GROWW%20ACADEMY%2C%20I%20would%20like%20to%20enquire%20about%20your%20courses." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">' +
+        '<img src="images/logo/whatsapp.png" alt="WhatsApp" />' +
+        '</a>'
+      );
+    }
   });
 })(window.jQuery);

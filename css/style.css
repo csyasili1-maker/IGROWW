@@ -18019,34 +18019,39 @@ img[src$="igroww-academy-logo.png"] {
 }
 
 .main-header .logo img[src$="igroww-academy-logo.png"] {
-  width: 82px;
-  height: 82px;
-  max-width: none;
+  width: auto;
+  height: 70px;
+  max-width: 220px;
   max-height: none;
+  object-fit: contain;
   filter: drop-shadow(0 0 14px rgba(245, 194, 66, 0.42));
 }
 
 .sticky-header .logo img[src$="igroww-academy-logo.png"] {
-  width: 58px;
-  height: 58px;
-  max-width: none;
+  width: auto;
+  height: 48px;
+  max-width: 180px;
   max-height: none;
+  object-fit: contain;
   filter: drop-shadow(0 0 10px rgba(245, 194, 66, 0.34));
 }
 
 .mobile-menu .nav-logo img[src$="igroww-academy-logo.png"] {
-  width: 92px;
-  height: 92px;
+  width: auto;
+  height: 60px;
+  max-width: 200px;
   max-height: none;
+  object-fit: contain;
   filter: drop-shadow(0 0 12px rgba(245, 194, 66, 0.38));
 }
 
 .footer-logo img[src$="igroww-academy-logo.png"],
 .main-footer .about-widget .logo img[src$="igroww-academy-logo.png"] {
-  width: 112px;
-  height: 112px;
-  max-width: none;
+  width: auto;
+  height: 80px;
+  max-width: 260px;
   max-height: none;
+  object-fit: contain;
   filter: drop-shadow(0 0 16px rgba(245, 194, 66, 0.36));
 }
 
@@ -18088,15 +18093,15 @@ img[src$="igroww-academy-logo.png"] {
 
 @media (max-width: 1199.98px) {
   .main-header .logo img[src$="igroww-academy-logo.png"] {
-    width: 72px;
-    height: 72px;
+    width: auto;
+    height: 56px;
   }
 }
 
 @media (max-width: 575.98px) {
   .main-header .logo img[src$="igroww-academy-logo.png"] {
-    width: 62px;
-    height: 62px;
+    width: auto;
+    height: 44px;
   }
 
   .igroww-preloader-logo {
@@ -18138,4 +18143,100 @@ img[src$="igroww-academy-logo.png"] {
     display: block !important;
   }
 }
+
+/* ========================================
+   FLOATING WHATSAPP BUTTON & MOBILE BOTTOM NAV
+   ======================================== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  z-index: 99999;
+  border-radius: 50%;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.whatsapp-float img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1) translateY(-4px);
+  box-shadow: 0 8px 24px rgba(252, 219, 102, 0.4);
+}
+
+.mobile-bottom-nav {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background: rgba(17, 17, 17, 0.94);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(252, 219, 102, 0.25);
+    z-index: 999999;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .mobile-bottom-nav .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #a1a1a1;
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: 20%;
+    height: 100%;
+  }
+
+  .mobile-bottom-nav .nav-item i {
+    font-size: 20px;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease;
+  }
+
+  .mobile-bottom-nav .nav-item.active {
+    color: #fcdb66;
+  }
+
+  .mobile-bottom-nav .nav-item.active i {
+    transform: translateY(-2px);
+    color: #fcdb66;
+    text-shadow: 0 0 10px rgba(252, 219, 102, 0.4);
+  }
+
+  .mobile-bottom-nav .nav-item:hover {
+    color: #fcdb66;
+  }
+
+  /* Shift WhatsApp floating button up to avoid overlapping bottom navigation bar on mobile */
+  .whatsapp-float {
+    bottom: 82px !important;
+    right: 16px !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  /* Add padding to the body so content is not hidden behind the fixed bar */
+  body {
+    padding-bottom: 65px !important;
+  }
+}
+
 

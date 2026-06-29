@@ -1019,11 +1019,24 @@ h1, h2, h3, h4 {
 	}
 
 	.banner-section.style_two {
-		height: 850px;
+		height: auto !important;
+		padding: 140px 0 70px !important;
 	}
 
 	.banner-section.style_two .hero-thumb {
-		display: none;
+		display: block !important;
+		position: relative !important;
+		right: auto !important;
+		bottom: auto !important;
+		margin: 40px auto 0 !important;
+		max-width: 100% !important;
+		text-align: center !important;
+	}
+
+	.banner-section.style_two .hero-thumb img {
+		max-width: 450px !important;
+		width: 100% !important;
+		height: auto !important;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
@@ -2319,12 +2332,24 @@ h1, h2, h3, h4 {
 	}
 
 	.banner-section.style_two {
-		height: 750px;
-		padding: 0;
+		height: auto !important;
+		padding: 130px 0 60px !important;
 	}
 
 	.banner-section.style_two .hero-thumb {
-		display: none;
+		display: block !important;
+		position: relative !important;
+		right: auto !important;
+		bottom: auto !important;
+		margin: 40px auto 0 !important;
+		max-width: 100% !important;
+		text-align: center !important;
+	}
+
+	.banner-section.style_two .hero-thumb img {
+		max-width: 400px !important;
+		width: 100% !important;
+		height: auto !important;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
@@ -3074,16 +3099,28 @@ h1, h2, h3, h4 {
 	}
 
 	.banner-section.style_two {
-		height: 750px;
-		padding: 0;
+		height: auto !important;
+		padding: 120px 0 50px !important;
 	}
 
 	.banner-section.style_two .hero_upper {
-		margin-top: 45px;
+		margin-top: 0 !important;
 	}
 
 	.banner-section.style_two .hero-thumb {
-		display: none;
+		display: block !important;
+		position: relative !important;
+		right: auto !important;
+		bottom: auto !important;
+		margin: 35px auto 0 !important;
+		max-width: 100% !important;
+		text-align: center !important;
+	}
+
+	.banner-section.style_two .hero-thumb img {
+		max-width: 360px !important;
+		width: 100% !important;
+		height: auto !important;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
@@ -4026,16 +4063,28 @@ h1, h2, h3, h4 {
 	}
 
 	.banner-section.style_two {
-		height: 600px;
-		padding: 0;
+		height: auto !important;
+		padding: 120px 0 40px !important;
 	}
 
 	.banner-section.style_two .hero_upper {
-		margin-top: 45px;
+		margin-top: 0 !important;
 	}
 
 	.banner-section.style_two .hero-thumb {
-		display: none;
+		display: block !important;
+		position: relative !important;
+		right: auto !important;
+		bottom: auto !important;
+		margin: 30px auto 0 !important;
+		max-width: 100% !important;
+		text-align: center !important;
+	}
+
+	.banner-section.style_two .hero-thumb img {
+		max-width: 280px !important;
+		width: 100% !important;
+		height: auto !important;
 	}
 
 	.banner-section.style_two .content-box .hero-marketing-box {
