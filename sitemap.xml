@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://localhost:8765/index.html</loc></url>
+  <url><loc>http://localhost:8765/page-about.html</loc></url>
+  <url><loc>http://localhost:8765/page-services.html</loc></url>
+  <url><loc>http://localhost:8765/page-projects.html</loc></url>
+  <url><loc>http://localhost:8765/page-team.html</loc></url>
+  <url><loc>http://localhost:8765/page-testimonial.html</loc></url>
+  <url><loc>http://localhost:8765/news-grid.html</loc></url>
+  <url><loc>http://localhost:8765/page-contact.html</loc></url>
+</urlset>
